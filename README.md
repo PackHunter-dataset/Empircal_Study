@@ -1,6 +1,8 @@
 # Empircal_Study
 
-| Project | Url | root causes | Missing packets |
+This page lists 47 projects that failed to build in our empirical study, including categories of errors such as missing package error (30 out of 47), build script error (7 out of 47), source code error (5 out of 47), and miscellaneous error (5 out of 47). For the projects that failed to build due to missing package errors, we have listed the specific packages that were missing.
+
+| Project | Url | Root Causes | Missing Packets |
 |---------|-----|-------------|-----------------|
 | antirez/dump1090 | https://github.com/antirez/dump1090 | missing package | librtlsdr-dev |
 | google/guetzli | https://github.com/google/guetzli | missing package | libpng-dev | 
